@@ -1,0 +1,8 @@
+C:\Users\Royi3339\vsCodeProjects\levCoinProject\bank_server>docker build -t crypto_bank_server:1.0 .
+
+
+
+C:\Users\Royi3339\vsCodeProjects\levCoinProject\bank_server>docker run -p 2400:2400 crypto_bank_server:1.0
+
+
+C:\Users\Royi3339\vsCodeProjects\levCoinProject\bank_server>docker run -p 2400:2400 -e TZ=Israel crypto_bank_server:1.0
